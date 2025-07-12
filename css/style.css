@@ -1,0 +1,104 @@
+.content-ctn{
+    padding: 0px 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.content-ctn h1{
+    display: inline-block;
+    max-width: 48%;
+}
+.heading .text-btn{
+    padding: 10px 15px;
+    background-color: rgb(129, 188, 129);
+    border-radius: 20px;
+}
+.heading a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+.heading .cta-btn{
+    border-radius: 30px;
+}
+.arrow-btn{
+    padding: 10px 15px;
+    background-color: rgb(129, 188, 129);
+    border-radius: 60px;
+}
+.space{
+    width: 10px;
+    background-color: rgb(129,  188, 129);
+    height: 16px;
+}
+.padding img{
+    padding: 10px;
+}
+body{
+    height: 100%;
+}
+.image{
+    background-color: black;
+    border-radius: 25px;
+}
+.image p{
+    color:  white;
+    transform: rotate(-90deg);
+}
+h6{
+    max-width: 50%;
+}
+.image-ctn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.green-banner{
+    background-image: url(../img/file_00000000190461f78977387044ead54b\ 1.png);
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 30px;
+    width: 100%;
+}
+.green-banner .btn-style{
+    padding: 8px 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.green-banner a{
+    text-decoration: none;
+}
+.btns-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.btn-style{
+    padding: 8px 22px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0,0,0);
+    border-radius: 20px;
+    gap: 5px;
+    font-size: 14px;
+}
+.btn-style :hover{
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.black-btn{
+    padding: 8px 15px;
+    background-color: black;
+
+}
